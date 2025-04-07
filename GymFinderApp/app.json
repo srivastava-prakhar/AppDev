@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "GymFinderApp",
+    "slug": "GymFinderApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#bfd7e0",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#bfd7e0"
+    },
+    "android": {
+      "package": "com.prakhar292004.GymFinderApp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCJhmvlc_NkJF4FClIMtDbtKx_ozAdzM0g"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#bfd7e0"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": {
+            "scheme": "https",
+            "host": "*.google.com"
+          },
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "extra": {
+      "eas": {
+        "projectId": "dec9d8c9-5b8b-4ccb-a9f0-0a1967000d74"
+      }
+    }
+  }
+}
